@@ -1,5 +1,5 @@
 import streamlit as st
-import option_menu
+from streamlit_option_menu import option_menu
 from minyak import minyak
 from beras import beras
 from gula import gula
