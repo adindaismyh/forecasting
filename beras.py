@@ -263,7 +263,7 @@ def beras():
             st.markdown(f"<h1 style='text-align: left; padding-right:25px; font-size:15px; padding-top:10px;padding-bottom:30px'>Visualisasi hasil prediksi data testing harga beras  dari model B- DES yang telah dibuat mulai tanggal {start_date2} hingga tanggal {end_date2}</h1>", unsafe_allow_html=True)
             v3, v4, v5 =st.columns([4,2,1])
             with v3:
-                visualisasitest(beras, training, testing, 750)
+                visualisasitest(beras, training, testing, 700)
                 
             with v4:
                 st.markdown(f"<h1 style='text-align: left; padding-bottom:5px; font-size:28px; color:#6A51BC'>ANALISA PLOT</h1>", unsafe_allow_html=True)
@@ -528,7 +528,7 @@ def beras():
             st.markdown(f"<h1 style='text-align: left; padding-right:25px; font-size:15px; padding-top:10px;padding-bottom:30px'>Visualisasi hasil prediksi data testing harga beras  dari model B- DES yang telah dibuat mulai tanggal {start_date2_b} hingga tanggal {end_date2_b}</h1>", unsafe_allow_html=True)
             v3_b, v4_b, v5_b =st.columns([4,2,1])
             with v3_b:
-                visualisasitest(beras, training2, testing2, 750)
+                visualisasitest(beras, training2, testing2, 700)
                 
             with v4_b:
                 st.markdown(f"<h1 style='text-align: left; padding-bottom:5px; font-size:28px; color:#6A51BC'>ANALISA PLOT</h1>", unsafe_allow_html=True)
