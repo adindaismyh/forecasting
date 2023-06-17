@@ -259,7 +259,7 @@ def cabai():
             st.markdown(f"<h1 style='text-align: left; padding-right:25px; font-size:15px; padding-top:10px;padding-bottom:30px'>Visualisasi hasil prediksi data testing harga cabai rawit dari model B- DES yang telah dibuat mulai tanggal {start_date2} hingga tanggal {end_date2}</h1>", unsafe_allow_html=True)
             v3, v4, v5 =st.columns([4,2,1])
             with v3:
-                visualisasitest(cabai, training, testing, 750)
+                visualisasitest(cabai, training, testing, 670)
                 
             with v4:
                 st.markdown(f"<h1 style='text-align: left; padding-bottom:5px; font-size:28px; color:#6A51BC'>ANALISA PLOT</h1>", unsafe_allow_html=True)
@@ -337,13 +337,13 @@ def cabai():
 
             with sd9:
                 st.markdown(f"<h1 style='text-align: left; padding-bottom:0px; font-size:25px; padding-top:10px; color:#6A51BC'>Visualisasi Periode Depan Interaktif</h1>", unsafe_allow_html=True)
-                st.markdown(f"<h1 style='text-align: justify; padding-right:25px; font-size:15px; padding-top:10px'>Plot data prediksi periode depan sesuai dengan tanggal yang dipilih pada tabel di atas</h1>", unsafe_allow_html=True)
-                st.markdown(f"<h1 style='text-align: left; font-size:12px; padding-top:10px;padding-bottom:5px;  color:red'>Gambar 2</h1>", unsafe_allow_html=True)
+                st.markdown(f"<h1 style='text-align: justify; padding-right:25px; font-size:15px; padding-top:10px; ;padding-bottom:0px'>Plot data prediksi periode depan sesuai dengan tanggal yang dipilih pada tabel di atas dapat dilihat pada Gambar 2</h1>", unsafe_allow_html=True)
+                st.markdown(f"<h1 style='text-align: left; font-size:12px; padding-top:10px;padding-bottom:0px;  color:red'>Gambar 2</h1>", unsafe_allow_html=True)
                 st.divider()
                 fig_depan = px.line(hasilprediksi, x="Tanggal", y="hasilprediksi") 
-                fig_depan.update_layout(width=490,margin=dict(l=6,r=1,b=1,t=1),paper_bgcolor="white", )
+                fig_depan.update_layout(width=460,margin=dict(l=8,r=1,b=1,t=1),paper_bgcolor="white")
                 st.write(fig_depan)
-
+                
             col7, col8 = st.columns([3,4])
             with col7:
                 st.markdown(f"<h1 style='text-align: left;font-size:25px; color:#6A51BC; padding-top:0px'>Analisa Hasil Prediksi Selama {title} hari ke Depan</h1>", unsafe_allow_html=True)
@@ -524,7 +524,7 @@ def cabai():
             st.markdown(f"<h1 style='text-align: left; padding-right:25px; font-size:15px; padding-top:10px;padding-bottom:30px'>Visualisasi hasil prediksi data testing harga cabai rawit dari model B- DES yang telah dibuat mulai tanggal {start_date2_b} hingga tanggal {end_date2_b}</h1>", unsafe_allow_html=True)
             v3_b, v4_b, v5_b =st.columns([4,2,1])
             with v3_b:
-                visualisasitest(cabai, training2, testing2, 750)
+                visualisasitest(cabai, training2, testing2, 670)
                 
             with v4_b:
                 st.markdown(f"<h1 style='text-align: left; padding-bottom:5px; font-size:28px; color:#6A51BC'>ANALISA PLOT</h1>", unsafe_allow_html=True)
@@ -598,11 +598,11 @@ def cabai():
                 
             with sd9_b:
                 st.markdown(f"<h1 style='text-align: left; padding-bottom:0px; font-size:25px; padding-top:10px; color:#6A51BC'>Visualisasi Periode Depan Interaktif</h1>", unsafe_allow_html=True)
-                st.markdown(f"<h1 style='text-align: justify; padding-right:25px; font-size:15px; padding-top:10px'>Plot data prediksi periode depan sesuai dengan tanggal yang dipilih pada tabel di atas</h1>", unsafe_allow_html=True)
-                st.markdown(f"<h1 style='text-align: left; font-size:12px; padding-top:10px;padding-bottom:15px;  color:red'>Gambar 2</h1>", unsafe_allow_html=True)
+                st.markdown(f"<h1 style='text-align: justify; padding-right:25px; font-size:15px; padding-top:10px; ;padding-bottom:0px'>Plot data prediksi periode depan sesuai dengan tanggal yang dipilih pada tabel di atas dapat dilihat pada Gambar 2</h1>", unsafe_allow_html=True)
+                st.markdown(f"<h1 style='text-align: left; font-size:12px; padding-top:10px;padding-bottom:0px;  color:red'>Gambar 2</h1>", unsafe_allow_html=True)
                 st.divider()
                 fig_depan2 = px.line(hasilprediksi2, x="Tanggal", y="hasilprediksi") 
-                fig_depan2.update_layout(width=600,margin=dict(l=1,r=1,b=1,t=1),paper_bgcolor="white")
+                fig_depan2.update_layout(width=460,margin=dict(l=8,r=1,b=1,t=1),paper_bgcolor="white")
                 st.write(fig_depan2)
 
             col7_b, col8_b = st.columns([3,4])
