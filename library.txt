@@ -2,7 +2,7 @@ streamlit
 streamlit-option-menu
 pandas
 matplotlib
-
+numpy
 math
 datetime
 time
