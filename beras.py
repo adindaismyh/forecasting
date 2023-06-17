@@ -345,7 +345,7 @@ def beras():
                 st.markdown(f"<h1 style='text-align: left; font-size:12px; padding-top:10px;padding-bottom:0px;  color:red'>Gambar 2</h1>", unsafe_allow_html=True)
                 st.divider()
                 fig_depan = px.line(hasilprediksi, x="Tanggal", y="hasilprediksi") 
-                fig_depan.update_layout(width=490,margin=dict(l=6,r=1,b=1,t=1),paper_bgcolor="white", )
+                fig_depan.update_layout(width=460,margin=dict(l=8,r=1,b=1,t=1),paper_bgcolor="white")
                 st.write(fig_depan)
 
             col7, col8 = st.columns([3,4])
