@@ -36,7 +36,7 @@ def visualisasi_prediksi(data, data1, data2, data3):
     data_4= go.Scatter(x=data3['Tanggal'], y=data3['hasilprediksi'], name="Periode Depan", mode="lines")
 
     figtesting = go.Figure([data_1, data_2, data_3, data_4])
-    figtesting.update_layout(xaxis_title = 'Tanggal',yaxis_title = 'Harga',width = 620)
+    figtesting.update_layout(xaxis_title = 'Tanggal',yaxis_title = 'Harga',width = 590)
     figtesting.update_layout(margin=dict(l=1,r=1,b=1,t=1),paper_bgcolor="white")
     st.write(figtesting, unsafe_allow_html=True)
 
