@@ -602,11 +602,11 @@ def beras():
                 
             with sd9_b:
                 st.markdown(f"<h1 style='text-align: left; padding-bottom:0px; font-size:25px; padding-top:10px; color:#6A51BC'>Visualisasi Periode Depan Interaktif</h1>", unsafe_allow_html=True)
-                st.markdown(f"<h1 style='text-align: justify; padding-right:25px; font-size:15px; padding-top:10px'>Plot data prediksi periode depan sesuai dengan tanggal yang dipilih pada tabel di atas</h1>", unsafe_allow_html=True)
-                st.markdown(f"<h1 style='text-align: left; font-size:12px; padding-top:10px;padding-bottom:15px;  color:red'>Gambar 2</h1>", unsafe_allow_html=True)
+                st.markdown(f"<h1 style='text-align: justify; padding-right:25px; font-size:15px; padding-top:10px; ;padding-bottom:0px'>Plot data prediksi periode depan sesuai dengan tanggal yang dipilih pada tabel di atas dapat dilihat pada Gambar 2</h1>", unsafe_allow_html=True)
+                st.markdown(f"<h1 style='text-align: left; font-size:12px; padding-top:10px;padding-bottom:0px;  color:red'>Gambar 2</h1>", unsafe_allow_html=True)
                 st.divider()
                 fig_depan2 = px.line(hasilprediksi2, x="Tanggal", y="hasilprediksi") 
-                fig_depan2.update_layout(width=600,margin=dict(l=1,r=1,b=1,t=1),paper_bgcolor="white")
+                fig_depan2.update_layout(width=460,margin=dict(l=8,r=1,b=1,t=1),paper_bgcolor="white")
                 st.write(fig_depan2)
 
             col7_b, col8_b = st.columns([3,4])
