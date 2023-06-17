@@ -4,7 +4,6 @@ numpy
 datetime
 streamlit
 streamlit-option-menu
-time
 plotly.express
 statistics
 plotly.graph_objs
