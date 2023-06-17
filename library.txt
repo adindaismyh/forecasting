@@ -3,8 +3,8 @@ matplotlib
 numpy
 math
 datetime
-streamlit==1.11.1
-streamlit-option-menu==0.3.2
+streamlit
+streamlit-option-menu==0.3.6
 time
 plotly.express
 statistics
