@@ -6,8 +6,9 @@ datetime
 streamlit
 streamlit_option_menu
 time
-plotly.express
+plotly-express
 statistics
+plotly
 plotly.graph_objs
 PIL
 
