@@ -341,8 +341,8 @@ def beras():
 
             with sd9:
                 st.markdown(f"<h1 style='text-align: left; padding-bottom:0px; font-size:25px; padding-top:10px; color:#6A51BC'>Visualisasi Periode Depan Interaktif</h1>", unsafe_allow_html=True)
-                st.markdown(f"<h1 style='text-align: justify; padding-right:25px; font-size:15px; padding-top:10px'>Plot data prediksi periode depan sesuai dengan tanggal yang dipilih pada tabel di atas</h1>", unsafe_allow_html=True)
-                st.markdown(f"<h1 style='text-align: left; font-size:12px; padding-top:10px;padding-bottom:5px;  color:red'>Gambar 2</h1>", unsafe_allow_html=True)
+                st.markdown(f"<h1 style='text-align: justify; padding-right:25px; font-size:17px; padding-top:10px; ;padding-bottom:0px'>Plot data prediksi periode depan sesuai dengan tanggal yang dipilih pada tabel di atas</h1>", unsafe_allow_html=True)
+                st.markdown(f"<h1 style='text-align: left; font-size:12px; padding-top:10px;padding-bottom:0px;  color:red'>Gambar 2</h1>", unsafe_allow_html=True)
                 st.divider()
                 fig_depan = px.line(hasilprediksi, x="Tanggal", y="hasilprediksi") 
                 fig_depan.update_layout(width=490,margin=dict(l=6,r=1,b=1,t=1),paper_bgcolor="white", )
