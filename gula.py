@@ -258,7 +258,7 @@ def gula():
             st.markdown(f"<h1 style='text-align: left; padding-right:25px; font-size:15px; padding-top:10px;padding-bottom:30px'>Visualisasi hasil prediksi data testing harga gula pasir dari model B- DES yang telah dibuat mulai tanggal {start_date2} hingga tanggal {end_date2}</h1>", unsafe_allow_html=True)
             v3, v4, v5 =st.columns([4,2,1])
             with v3:
-                visualisasitest(gula, training, testing, 670)
+                visualisasitest(gula, training, testing, 650)
                 
             with v4:
                 st.markdown(f"<h1 style='text-align: left; padding-bottom:5px; font-size:28px; color:#6A51BC'>ANALISA PLOT</h1>", unsafe_allow_html=True)
