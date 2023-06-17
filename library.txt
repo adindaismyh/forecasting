@@ -1,0 +1,13 @@
+pandas
+matplotlib
+numpy
+math
+datetime
+streamlit
+streamlit_option_menu
+time
+plotly.express
+statistics
+plotly.graph_objs
+PIL
+
