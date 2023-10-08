@@ -10,6 +10,8 @@
     visibility: hidden;
 }
 
+
+
 .css-uf99v8.egzxvld5{
     background-color: #FFFFFF;
 }
@@ -25,6 +27,12 @@
 }
 
 .css-keje6w.esravye1{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+}
+
+.css-keje6w.e1tzin5v1{
     background-color: #FFFFFF;
     border-radius: 10px;
     padding: 20px 20px 20px 20px;
@@ -47,4 +55,14 @@
     background-color: #D8D9F9;
     padding: 30px 30px 30px 30px;
     border-radius: 10px;
+}
+
+.css-19pmq3u{
+    background-color: #D8D9F9;
+    border-radius: 10px;
+    padding: 30px 30px 30px 30px;
+}
+
+.css-1bt9eao{
+    padding: 0px 30px 30px 30px;
 }
